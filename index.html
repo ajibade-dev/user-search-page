@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>User Search Page</title>
+</head>
+<body>
+    
+    <!---Main Div For the whole work-->
+    <div class="flex items-center justify-center mx-auto bg-[#BFC8E6] pt-16 pb-16">
+        
+        <!--Main div for housing the user page-->
+
+        <div class="rounded rounded-md bg-white p-[100px]">
+            <h1 class="flex items-center justify-center md:block font-bold text-3xl text-black">Users</h1>
+
+            <!--div for search bar and menu-->
+            <div class="flex flex-col md:flex-row items-center justify-between mt-6 mb-12 mx-auto space-y-4 md:space-y-0 md:space-x-4">
+
+                <!--Search Bar-->
+                <div class="relative mr-[100px] ml-24 md:mx-0">
+                    <input type="text" class="rounded rounded-md h-[60px] w-[300px] border">
+                    <img src="images/microscope.png" alt="" class="absolute top-4 left-4">
+                    <p class="absolute font-normal text-gray-500 top-4 left-16 mt-1">Search Users</p>
+                </div>
+               
+                <!--Menu-->
+                <div class="flex flex-col items-center md:flex-row text-black font-light space-y-4 md:space-y-0 md:space-x-4">
+                    <p class="cursor-pointer font-semibold text-gray-500">Reputation</p>
+                    <button class="py-2 px-4 rounded rounded-md bg-[#849FFF] text-white font-semibold">New Users</button>
+                    <p class="cursor-pointer font-semibold text-gray-500">Voters</p>
+                    <p class="cursor-pointer font-semibold text-gray-500">Editors</p>
+                    <p class="cursor-pointer font-semibold text-gray-500">Moderators</p>
+                </div>
+            </div>
+
+            <!--Section for image cards-->
+            <section id="users">
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mx-auto m-8">
+
+                    <!--Box 1-->
+                    <div class="flex rounded rounded-md bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 1.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Lelah Nicols</h3>
+                            <p class="font-normal">Troy, MI</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">clothes</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">stem</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--Box 2-->
+                    <div class="flex rounded rounded-lg shadow shadow-lg border bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 2.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Jesus Weiss</h3>
+                            <p class="font-normal">Fort Worth, TX</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">headset</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">gadget</button>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">speed</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">winter</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Box 3-->
+                    <div class="flex rounded rounded-md bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 3.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Lelah Nicols</h3>
+                            <p class="font-normal">Austin, TX</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">road</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">mountain</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">trip</button>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">earth</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">nature</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--For row 2-->
+
+                <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mx-auto">
+
+                    <!--Box 4-->
+                    <div class="flex rounded rounded-md bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 4.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Robert Bower</h3>
+                            <p class="font-normal">Cincinnati, OH</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">maintenance</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">gears</button>
+                            </div>
+
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">frames</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">repairs</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!--Box 5-->
+                    <div class="flex rounded rounded-lg bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 5.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Amy Campbell</h3>
+                            <p class="font-normal">Warrior, AL</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">music</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">disks</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Box 6-->
+                    <div class="flex rounded rounded-md bg-[#FBFCFF] p-4 space-x-4 h-[208px] w-[327px]">
+                        <img src="images/Ellipse 6.png" alt="" class="items-center justify-center w-[97px] h-[97px] cursor-pointer">
+                        <div class="flex flex-col space-y-2 p-4">
+                            <h3 class="font-bold text-2xl">Anthony S. Mprin</h3>
+                            <p class="font-normal">Lyndhurst, Nj</p>
+                            <div class="flex space-x-2">
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">vintage</button>
+                                <button class="rounded rounded-full border text-[#849FFF] px-2">eletric</button>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
